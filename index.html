@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+</head>
+<body>
+    <div id="demo">
+        <h2>Let AJAX change this text</h2>
+        <button type="button" onclick="loadDoc()">Change Content</button>
+        <div id='para1'></div>
+    </div>
+    <script>
+    var p = document.getElementById('para1');
+        function loadDoc() {
+            var ourRequest = new XMLHttpRequest();
+            const randomNum = Math.random();
+            console.log(randomNum);
+            ourRequest.open("GET", "https://swapi.dev/api/people", true);
+            ourRequest.onload = function(){
+            var data = JSON.parse(this.responseText);
+            console.log(data.results);
+            for (let i = 0; i < data.results.length; i++){
+                console.log(data.results[i])
+            }
+        }
+    ourRequest.send();
+}
+    </script>
+</body>
+</html>
