@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #main {
+            text-align: center;
+            background-color: black;
+            color:orange;
+            padding:10px 0;
+        }
+        #main > h2 {
+            margin: 0 0 20px 0;
+        }
+        #main > button {
+            border-radius:10px;
+            padding: 5px;
+            background: dimgray;
+            color: orange;
+        }
+    </style>
 </head>
 <body>
-    <div id="demo">
-        <h2>Let AJAX change this text</h2>
+    <div id="main">
+        <h2>Stranger Things API !</h2>
         <button type="button" onclick="loadDoc()">Change Content</button>
-        <div id='para1'></div>
     </div>
-    <script>
-    var p = document.getElementById('para1');
-        function loadDoc() {
-            var ourRequest = new XMLHttpRequest();
-            const randomNum = Math.random();
-            console.log(randomNum);
-            ourRequest.open("GET", "https://swapi.dev/api/people", true);
-            ourRequest.onload = function(){
-            var data = JSON.parse(this.responseText);
-            console.log(data.results);
-            for (let i = 0; i < data.results.length; i++){
-                console.log(data.results[i])
-            }
-        }
-    ourRequest.send();
-}
-    </script>
+    <div>
+        Hello
+    </div>
+    <script src='index.js'></script>
 </body>
 </html>
