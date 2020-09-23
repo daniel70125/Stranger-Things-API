@@ -1,7 +1,51 @@
 [
     {
-        "name":"Winona Ryder",
-        "age":"27",
-        "img":""
+        "name":"Winona Ryder(Winona Ryder)",
+        "age":"Late 30's",
+        "quote":"Maybe I am a mess, maybe I’m crazy, maybe I’m out of my mind! But, God help me, I will keep these lights up until the day I die, if I think there’s a chance that Will's still out there!",
+        "img":"https://3.bp.blogspot.com/-K9KyklaGESE/XREDdjYJT4I/AAAAAAAAAJs/YuyCSRSf15YGhiKPl3Ea33OSDZDDtJSIACKgBGAs/w1920-h1080-c/stranger-things-season-3-joyce-byers-uhdpaper.com-8K-13.jpg",
+        "family":["Will Byers(son)", "Johnathan Byers(son)", "Darlene(aunt)", "Eleven(friend/daughter figure; ward)"]
+    },
+    {
+        "name":"Mike Wheeler(Finn Wolfhard)",
+        "age":"14",
+        "quote":"El, are you there? El? It's me, it's Mike. It's day 352, 7:40 pm, I am still here. If you're out there, say something... or give me a sign, I won't, I won't even say anything, I just... I want to know if you're okay.",
+        "img":"https://4.bp.blogspot.com/-qvQhiFRIqzE/XREDdhOwlVI/AAAAAAAAAJs/iA3wFYx333U4YBJ_9tIgtHzv5sWtt3WgQCKgBGAs/w1920-h1080-c/stranger-things-season-3-mike-wheeler-uhdpaper.com-8K-6.jpg",
+        "family":["Karen Wheeler(mother)","Ted Wheeler(father)","Nancy Wheeler(sister)","Holly Wheeler(sister)"]
+    },
+    {
+        "name":"Will Byers(Noah Schnapp)",
+        "age":"14",
+        "quote":"The Demogorgon... it got me.",
+        "img":"https://4.bp.blogspot.com/-w0xODcYb7D4/XREDdpbcZLI/AAAAAAAAAJs/1xWuhg-4fvgj2Jy-9A-IAqYzA9qlF84LgCKgBGAs/w1920-h1080-c/stranger-things-season-3-will-byers-uhdpaper.com-8K-5.jpg",
+        "family":["Johnathan Byers(brother)","Joyce Byers(mother)","Lonnie Byers(father)","Darlene(great-aunt)", "Eleven(friend; housemate)"]
+    },
+    {
+        "name":"Eleven(Millie Bobby Brown)",
+        "age":"14",
+        "quote":"I'm going to my friends. I'm going home.",
+        "img":"https://4.bp.blogspot.com/-JI6fK7o0om0/XREDdlaU9II/AAAAAAAAAJs/ceQ6uz-pVmUaEnErGZHBvr9DPkclgAcWgCKgBGAs/w1920-h1080-c/stranger-things-season-3-eleven-uhdpaper.com-8K-15.jpg",
+        "family":["Joyce Byers(friend/mother figure; guardian)","Jim Hopper(adoptive father)","Sara Hopper(adoptive sister)","Terry Ives(biological mother)", "Becky Ives(aunt"]
+    },
+    {
+        "name":"Dustin Henderson(Gaten Matarazzo)",
+        "age":"14",
+        "quote":"It's just, I know I can be a jerk like him sometimes, and I do not want to be like him. Ever.",
+        "img":"https://1.bp.blogspot.com/-BBMtAEhb2-U/XREDdnLy4VI/AAAAAAAAAJs/eK3NpaTLM8If6dLeYx5BeP2LcdCz-7uJgCKgBGAs/w1920-h1080-c/stranger-things-season-3-dustin-henderson-uhdpaper.com-8K-12.jpg",
+        "family":["Claudia Henderson(mother)","Mr. Henderson(father)","Mews(pet)","D'Artagnan(pet)"]
+    },
+    {
+        "name":"Max Mayfield(Sadie Sink)",
+        "age":"14",
+        "quote":"You always say we should never stop being curious, to always open any curiosity door we find.Dustin...Why are you keeping this curiosity door locked?",
+        "img":"https://1.bp.blogspot.com/-YaUk9c0iVsc/XREDdmR_2kI/AAAAAAAAAJs/aIIfHR5CEa0Eh-Y8u13WI7xSdPc64ZEqACKgBGAs/w1920-h1080-c/stranger-things-season-3-max-mayfield-uhdpaper.com-8K-8.jpg",
+        "family":["Billy Hargrove(stepbrother)","Neil Hargrove(stepfather)","Susan Hargrove(mother)","Sam Mayfield(father)"]
+    },
+    {
+        "name":"Lucas Sinclair(Caleb McLaughlin)",
+        "age":"14",
+        "quote":"We have a lot of rules in our party, but the most important is, 'Friends don't lie.' Never ever. No matter what.",
+        "img":"https://2.bp.blogspot.com/-jYLZKqYfAf0/XREDdnokzRI/AAAAAAAAAJs/YtMlpR-g1NgylcwNbJUk2GpEAI_z07ULQCKgBGAs/w1920-h1080-c/stranger-things-season-3-lucas-sinclair-uhdpaper.com-8K-11.jpg",
+        "family":["Mrs. Sinclair(mother)","Mr. Sinclair(father)","Erica Sinclair(sister)"]
     }
 ]
